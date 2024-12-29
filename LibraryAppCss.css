@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: monospace;
+}
+
+h1{
+    text-align:center;
+}
+body{
+    background-color: #38393b;
+    display: flex;
+    flex-direction: column;
+    
+}
+#books_display{
+    background-color: black;
+    margin: 50px;
+
+}
+div{
+    border:white 1px solid;
+}
+#book_on_screen{
+    min-height: fit-content;
+    width:fit-content;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+     gap: 30px ;
+    flex-wrap: wrap;
+    flex:1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

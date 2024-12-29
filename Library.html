@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Page</title>
+    <link href="./LibraryCss.css" rel="stylesheet">
+    <script src="./LibraryScript.js" defer></script>
+</head>
+<body id="body">
+    <div class="dark_mode">
+        <button type="submit">Dark Mode</button>
+    </div>
+    <div class="Heading">
+       <h1>Twilight Library</h1>
+    </div>
+    <div class="first_Container_forms">
+          <h2>Which Book do you wish to add?</h2>
+          <label for="book_name">Enter the book name you want to add into the library:<input type="text" id="book_name" title="Please enter the book name." required></label>
+         
+          <hr>
+          <h2>Who is the author?</h2>
+          <label for="author_name">Enter the author name you want to add into the library:<input type="text" id="author_name" title="Please enter the author name." required></label>
+         
+          <hr>
+          <h2>Which Year was it published in?</h2>
+          <label for="publish_year">Enter the the year book was published in:<input type="text" id="publish_year" title="Please enter the year it was published in." required></label>
+          
+          <hr>
+          <h2>How many pages does it have?</h2>
+          <label for="page_number">Enter Amount of Pages:<input type="number" id="page_number" title="Please enter the book name." required></label>
+          <button type="submit" id="get_queries">Enter</button>
+          <hr>
+    </div>
+    <div id="endDisplay"></div>
+</body>
+</html>

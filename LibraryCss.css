@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    width: 300px;
+    margin: 0 auto;
+}
+.dark-mode button{
+    display: block;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    margin-left:80%;
+    min-height: 3px;
+}
+body{
+    background-color: azure;
+}
+.Heading h1{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+.first_Container_forms h2{
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid;
+    padding:10px
+}
+.first_Container_forms{
+    max-width: 70%;
+    margin: 0 auto;
+    padding:10px;
+}
+label{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+button{
+     border-radius: 0%;
+     
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    
+}
+#endDisplay{
+    width: max-content;
+    margin: 0 auto;
+    font-family: monospace;
+}

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    color:azure;
+}
+body{
+    background-color: blue;
+    font-family:monospace ;
+}
+/* heading */
+
+.main_heading{
+    /* border: 1px solid beige; */
+    margin-bottom: 20px;
+    padding: 30px;
+
+}
+h1{
+    text-align: center;
+    border: 1px solid beige;
+
+}
+button{
+    color: black;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.ask_for_input{
+    font-style: italic;
+    margin: bottom 30px;
+}
+input{
+    color:black;
+}
+.displayText{
+    color: red;
+    margin: 30px;
+}
